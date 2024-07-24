@@ -1,0 +1,6 @@
+.DataCell{
+    flex: 1;
+    height: 100%;
+    /* border-left: 1px solid grey; */
+    padding: 5px;
+}

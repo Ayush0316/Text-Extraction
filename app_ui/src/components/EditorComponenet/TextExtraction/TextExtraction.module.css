@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.App > * {
+  padding: 10px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-around;
+}

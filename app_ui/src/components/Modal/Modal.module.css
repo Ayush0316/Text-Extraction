@@ -1,0 +1,30 @@
+.hide{
+    display: none;
+}
+
+.show{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Backdrop{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(73, 73, 73, 0.678);
+    position: absolute;
+    z-index: -10;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.BackdropShow{
+    background-color: rgba(0, 0, 0, 0.678);
+}

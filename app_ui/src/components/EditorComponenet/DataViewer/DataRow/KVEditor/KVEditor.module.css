@@ -1,0 +1,15 @@
+.KVEditor{
+    width: 100%;
+    padding: 10px;
+}
+
+.Main{
+    width: 100%;
+    display: flex;
+}
+
+.Footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}

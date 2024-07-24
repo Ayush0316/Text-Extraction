@@ -1,0 +1,32 @@
+.DataRow {
+  width: 100%;
+  border: 1px solid rgb(214, 214, 214);
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.Main {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.SampleData {
+  flex: 1;
+  cursor: pointer;
+  /* height: 100%;
+    overflow: hidden; */
+}
+
+#map-part {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  opacity: 0.2;
+}

@@ -1,0 +1,14 @@
+.Container{
+    width: 45%;
+    min-width: 450px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signup:hover{
+    cursor: pointer;
+}

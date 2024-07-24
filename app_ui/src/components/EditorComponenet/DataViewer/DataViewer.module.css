@@ -1,0 +1,14 @@
+.DataViewer{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid grey;
+}
